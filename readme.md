@@ -2,6 +2,6 @@
 
 ## Reqs
 ### You need to have Postgres Installed.
-#### Edit **application.properties** file with your postgres creds:
-##### spring.datasource.username 
-##### spring.datasource.password
+#### Edit *application.properties* file with your postgres creds:
+##### set *spring.datasource.username* to your username
+##### set *spring.datasource.password* to your username
