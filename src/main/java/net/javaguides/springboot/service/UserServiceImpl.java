@@ -65,9 +65,7 @@ public class UserServiceImpl implements UserService {
 		if(!registrationDto.getFirma().isEmpty()){
 			userToUpdateUser.setFirma(registrationDto.getFirma());
 		}
-		if(!registrationDto.getAnrede().isEmpty()){
-			userToUpdateUser.setAnrede(registrationDto.getAnrede());
-		}
+
 		return userRepository.save(userToUpdateUser);
 	}
 
